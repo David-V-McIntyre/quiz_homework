@@ -9,15 +9,17 @@ Answer: The ability for something to change shape.
 
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 
-Answer: It means that a method can be reused in different ways. For example you could have a ISpeaker interface with a makeSound() method - this could then be implemented by other objects such as Headphones or CinemaSpeaker (where the Headphones “play music” and the CinemaSpeaker “plays movie sounds” etc)
+Answer: It means that an instance of a class can be treated like another class. For example you could have a ISpeaker interface with a makeSound() method - this could then be implemented by other objects such as Headphones or CinemaSpeaker (where the Headphones “play music” and the CinemaSpeaker “plays movie sounds” etc)
 
 3. What can we use to implement polymorphism in Java?
 
-Answer: We use an interface to create the method and the other class then IMPLEMENT from this interface to utilise the method.
+Answer: We use an interface, abstraction or inheritance.
 
 4. How many 'forms' can an object take when using polymorphism?
 
-Answer: I don’t know if I fully understand this question. I guess the answer is 2? For example a Headphones object could be considered both a Headphones and an ISpeaker. Although an ISpeaker could potentially be an infinite number of different objects as different objects could implement it. 
+Answer: I don’t know if I fully understand this question. I guess  an ISpeaker could potentially be an infinite number of different objects as different objects could implement it. 
+
+EDIT: As many as it needs.
 
 5. Give an example of when you could use polymorphism.
 
